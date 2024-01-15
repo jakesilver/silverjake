@@ -1,0 +1,4 @@
+baseURL = 'https://silverjake.com/'
+languageCode = 'en-us'
+title = 'Jake Silver'
+theme = 'hallo'
