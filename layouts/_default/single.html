@@ -1,12 +1,8 @@
 {{ define "main" }}
 <main>
-    <div class="block">
-        <div class="column left">
-            <h1>{{ .Title }}</h1>
-        </div>
-        <div class="column right">
-            {{ .Content }}
-        </div>
+    <div class="block centered-content">
+        <h1>{{ .Title }}</h1>
+        {{ .Content }}
     </div>
 </main>
 {{ end }}
