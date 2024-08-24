@@ -32,6 +32,6 @@ disableKinds = ["page", "section", "taxonomy"]
         url = "https://linkedin.com/in/jake-silver"
 
     [params.colors]
-        background = "#b984a5"
+        background = "#8B4B76"
         foreground = "#fff"
         hover = "#333"
