@@ -6,6 +6,8 @@ date: 2024-08-24
 draft: false
 ---
 
+{{< floating-link >}}
+
 ## Jake Silver
 
 [me@silverjake.com](mailto:me@silverjake.com) | [github.com/jakesilver](http://www.github.com/jakesilver)
