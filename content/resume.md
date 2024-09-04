@@ -8,9 +8,9 @@ draft: false
 
 {{< floating-link >}}
 
-## Jake Silver
+# Jake Silver
 
-[me@silverjake.com](mailto:me@silverjake.com) | [github.com/jakesilver](http://www.github.com/jakesilver)
+[me@silverjake.com](mailto:me@silverjake.com) | [github.com/jakesilver](http://www.github.com/jakesilver) | [linkedin.com/in/jakesilver](https://www.linkedin.com/in/jake-silver/)
 
 ### Professional Experience
 
@@ -71,9 +71,9 @@ Android ecosystem.
 #### Bachelor of Science, Computer Science, The College of William & Mary
 *May 2015*
 
-- During my time at the College of William & Mary, I worked in the Computer Science lab as a consultant and for the Catering services as a server and as a data entry assistant. I also volunteered as an Admissions tour guide and helped found a mentoring program in Lafayette Village,a nearby housing community.
+- During my time at the College of William & Mary, I worked in the Computer Science lab as a consultant and for the Catering services as a server and as a data entry assistant. I also volunteered as an Admissions tour guide and helped found a mentoring program in Lafayette Village, a nearby housing community.
 
 ### Skills
 
 - Languages: C#, HTML, Java, Javascript, Kotlin, Objective-C, PHP, Python, Swift, SQL
-- Related Technologies: Android, iOS, Google Jetpack Libraries, Django Framework, React (Native), .NET Framework, WebAPI, Azure, Redis, OAuth
+- Related Technologies: Android, iOS, Google Jetpack Libraries, GraphQL, SQLite, React (Native), Django Framework, .NET Core/Framework, WebAPI, AWS, Azure, Redis, OAuth

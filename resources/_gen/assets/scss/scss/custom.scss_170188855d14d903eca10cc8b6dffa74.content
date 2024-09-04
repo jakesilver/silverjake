@@ -1,0 +1,1 @@
+.centered-content{max-width:800px;margin:0 auto;padding:2rem;display:flex;flex-direction:column;align-items:center}.centered-content h1{font-size:3rem;text-align:center;margin-bottom:2rem}.centered-content h2{font-size:2rem}.centered-content h3{font-size:1.5rem}.centered-content p,.centered-content ul{font-size:1rem;line-height:1.5}
