@@ -3,7 +3,7 @@ languageCode = "en"
 defaultContentLanguage = "en"
 title = "Jake Silver"
 theme = "hallo"
-disableKinds = ["page", "section", "taxonomy"]
+#disableKinds = ["page", "section", "taxonomy"]
 
 [Author]
     name = "Jake Silver"
