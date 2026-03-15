@@ -1,0 +1,17 @@
+<header class="resume-header" role="banner">
+  <a href="/" class="resume-header__back">← Introduction</a>
+  <nav class="resume-header__nav" aria-label="Resume sections">
+    <a href="#professional-experience">Experience</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+  </nav>
+</header>
+<script>
+  (function () {
+    const header = document.querySelector('.resume-header');
+    if (!header) return;
+    const update = () => header.classList.toggle('scrolled', window.scrollY > 8);
+    window.addEventListener('scroll', update, { passive: true });
+    update();
+  })();
+</script>

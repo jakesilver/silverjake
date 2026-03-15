@@ -32,6 +32,6 @@ theme = "hallo"
         url = "https://linkedin.com/in/jake-silver"
 
     [params.colors]
-        background = "#8B4B76"
+        background = "#1B3A5C"
         foreground = "#fff"
-        hover = "#333"
+        hover = "#FF6E6E"
