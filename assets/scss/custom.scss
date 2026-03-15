@@ -1,14 +1,24 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin-left: 0;
+    margin-right: 0;
+}
+
 .centered-content {
-    max-width: 800px;
+    max-width: 740px;
     margin: 0 auto;
     padding: 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
+
     h1 {
         font-size: 3rem;
         text-align: center;
-        margin-bottom: 2rem;
+        margin-bottom: 0.5rem;
     }
     h2 {
         font-size: 2rem;
@@ -16,8 +26,144 @@
     h3 {
         font-size: 1.5rem;
     }
-    p, ul {
+    h3, h4 {
+        scroll-margin-top: 4rem;
+    }
+
+    // Off-white body text reduces eye strain on dark backgrounds
+    p, ul, li {
         font-size: 1rem;
-        line-height: 1.5;
+        line-height: 1.75;
+        color: #E2E8F0;
+    }
+
+    // Keep headings bright white for hierarchy contrast
+    h1, h2, h3, h4, h5, h6 {
+        color: #fff;
+    }
+
+    // Override theme's dark #333 hover — invisible on navy background
+    a {
+        color: #E2E8F0;
+        transition: color 0.2s ease-out;
+
+        &:hover, &:focus {
+            color: #FF6E6E;
+            outline: none;
+        }
+
+        &:focus-visible {
+            outline: 2px solid #FF6E6E;
+            outline-offset: 2px;
+            border-radius: 2px;
+        }
+    }
+}
+
+// Unified sticky resume header
+.resume-header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    align-self: stretch;
+    background-color: #1B3A5C;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1.5rem;
+    height: 50px;
+    margin-bottom: 1.5rem;
+    transition: border-radius 0.25s ease, box-shadow 0.25s ease;
+
+    &.scrolled {
+        border-radius: 0 0 12px 12px;
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
+    }
+
+    a {
+        color: rgba(255, 255, 255, 0.85);
+        text-decoration: none;
+        font-size: 0.85rem;
+        font-weight: 700;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        padding: 0.25rem 0;
+        border-bottom: 2px solid transparent;
+        transition: color 0.2s, border-bottom-color 0.2s;
+
+        &:hover, &:focus {
+            color: #fff;
+            border-bottom-color: rgba(255, 255, 255, 0.6);
+            outline: none;
+        }
+
+        &:focus-visible {
+            outline: 2px solid #fff;
+            outline-offset: 3px;
+            border-radius: 2px;
+        }
+    }
+}
+
+.resume-header__nav {
+    display: flex;
+    gap: 1.75rem;
+}
+
+// Section cards
+.resume-section {
+    width: 100%;
+    align-self: stretch;
+    background: rgba(0, 0, 0, 0.18);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-top: 3px solid #FF6E6E;
+    border-radius: 12px;
+    box-shadow: 0 4px 28px rgba(0, 0, 0, 0.25);
+    padding: 1.75rem 2rem;
+    margin-bottom: 1.5rem;
+    text-align: left;
+
+    // Section title with divider
+    h3 {
+        margin-top: 0;
+        padding-bottom: 0.75rem;
+        margin-bottom: 1.25rem;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        letter-spacing: 0.02em;
+    }
+
+    // Company headings — separator between each company block
+    h4 {
+        margin-top: 1.75rem;
+        padding-top: 1.75rem;
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        margin-bottom: 0.15rem;
+    }
+
+    // First company under the section heading gets no top separator
+    h3 + h4 {
+        margin-top: 0;
+        padding-top: 0;
+        border-top: none;
+    }
+
+    // Role titles — smaller and slightly muted vs company name
+    h5 {
+        margin-top: 0.1rem;
+        margin-bottom: 0.1rem;
+        font-size: 0.9rem;
+        font-weight: 600;
+        color: rgba(255, 255, 255, 0.7);
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+    }
+
+    ul {
+        margin-top: 0.5rem;
+        margin-bottom: 0;
+    }
+
+    li {
+        margin-bottom: 0.5rem;
     }
 }

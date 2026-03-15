@@ -10,7 +10,7 @@ html {
   overflow-y: auto; }
 
 body {
-  background-color: #8B4B76; }
+  background-color: #1B3A5C; }
 
 a {
   -webkit-transition: color 0.2s ease-out;
@@ -18,7 +18,7 @@ a {
   transition: color 0.2s ease-out;
   color: #fff; }
   a:hover {
-    color: #333; }
+    color: #FF6E6E; }
 
 h1 {
   font-size: 9rem; }

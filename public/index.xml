@@ -7,5 +7,12 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <atom:link href="https://silverjake.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://silverjake.com/resume/</link>
+      <pubDate>Sat, 24 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://silverjake.com/resume/</guid>
+      <description>← Introduction Experience Education Skills Jake Silver me@silverjake.com | github.com/jakesilver | linkedin.com/in/jakesilver&#xA;Professional Experience Venmo/PayPal, Chicago, IL CL8 - Sr. Staff Software Engineer Dec 2025 - Present&#xA;Promoted to Sr. Staff for org-wide impact; led Visual Core team roadmap for 120+ Venmo mobile engineers, driving a 24-month strategic vision for modularization and design system unification across Android and iOS. Built Venmo’s first Design System documentation site and established a screenshot testing framework — the first at PayPal — both adopted as organization-wide engineering best practices.</description>
+    </item>
   </channel>
 </rss>
