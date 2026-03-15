@@ -1,6 +1,12 @@
 // Connects .resume-header width offset to .centered-content horizontal padding
 $content-h-padding: 2rem;
 
+// Reset theme's 1rem body margin — lets the sticky header reach the true
+// viewport top and keeps centering math clean
+body {
+    margin: 0;
+}
+
 @media (prefers-reduced-motion: no-preference) {
     html {
         scroll-behavior: smooth;
@@ -69,7 +75,6 @@ $content-h-padding: 2rem;
     // Negate parent .centered-content horizontal padding so the bar
     // spans the full container width rather than the inset content width
     width: calc(100% + #{$content-h-padding * 2});
-    margin-left: -#{$content-h-padding};
     box-sizing: border-box;
     align-self: stretch;
     background-color: #1B3A5C;
