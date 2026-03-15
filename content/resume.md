@@ -15,20 +15,31 @@ draft: false
 ### Professional Experience
 
 #### Venmo/PayPal, Chicago, IL
-##### MTS2 - Staff Software Engineer
-*Feb 2024 - Present*
 
-- Android lead on team comprised of 60 full-time and contract engineers, grown 3x in time at company, working on Venmo application used by millions of customers.
-- Tech lead for native Android and iOS Visual Core team within Venmo Mobile Platform Engineering organization. The Visual Core team maintains Venmo's design system, a common set of UI components that serve as the foundational building blocks for a consistent, efficient, and delightful user interface across Venmo’s mobile applications. This team works to foster a cohesive and enhanced mobile experience for millions of Venmo users by bridging our engineers, designers, and product stakeholders.
-- Conduct technical interviews, promote culture of document and domain-driven design, encourage thoughtful technical discussion and code review, while mentoring other engineers.
-- Work across the Venmo and PayPal organization with engineers, product, design, and management as a subject matter expert.
+##### CL8 - Sr. Staff Software Engineer
+*Dec 2025 - Present*
+
+- Promoted to Sr. Staff for org-wide impact; led Visual Core team roadmap for 120+ Venmo mobile engineers, driving a 24-month strategic vision for modularization and design system unification across Android and iOS.
+- Built Venmo’s first Design System documentation site and established a screenshot testing framework — the first at PayPal — both adopted as organization-wide engineering best practices.
+- Transformed mobile onboarding from one month to 5 days for 50+ engineers (adopted company-wide); mentored engineers toward Staff-level promotions and led Android office hours to raise the technical bar across teams.
+- Championing Declarative UI adoption across Venmo mobile, driving migration to Jetpack Compose on Android and SwiftUI on iOS to modernize the UI layer and improve developer experience at scale.
+
+##### CL7 - Staff Software Engineer II
+*Feb 2024 - Dec 2025*
+
+- Android lead on team comprised of 60+ full-time and contract engineers, grown 3x in time at company, working on the Venmo application used by millions of customers.
+- Led Debit Card push provisioning integration for Android and iOS on a tight timeline, enabling millions in revenue recognized by PayPal CEO Alex Chriss.
+- Tech lead for native Android and iOS Visual Core team within Venmo Mobile Platform Engineering organization. The Visual Core team maintains Venmo’s design system, a common set of UI components that serve as the foundational building blocks for a consistent, efficient, and delightful user interface across Venmo’s mobile applications. This team works to foster a cohesive and enhanced mobile experience for millions of Venmo users by bridging our engineers, designers, and product stakeholders.
+- Accessibility engineering lead for Venmo; pushed for WCAG 2.1 compliance across teams, led workshops for 75+ engineers and designers, and was selected as one of four speakers across PayPal for Global Accessibility Awareness Day.
+- Directly mentored engineers toward promotions and led bi-weekly Android tech discussions for 60+ engineers; championed Jetpack Compose / SwiftUI and dark mode adoption including CI/CD infrastructure.
+- Conduct technical interviews, promote culture of document and domain-driven design, encourage thoughtful technical discussion and code review.
 
 ##### MTS1 - Staff Software Engineer
 *Jul 2020 - Feb 2024*
 
-- Mobile architect for native Android and iOS leading Venmo Teen Account project. I led a team of 20 mobile engineers and coded features to deliver the project. I was also responsible for estimating technical work per feature, creating epics, breaking down features into stories, assigning work, and leading sprint ceremonies and technical discussions. I frequently communicated with product & design stakeholders and represented my team to higher-level executives.
+- Mobile architect for native Android and iOS leading Venmo Teen Account project, resulting in 1M+ new teen accounts. I led a team of 20 mobile engineers and coded features to deliver the project. I was also responsible for estimating technical work per feature, creating epics, breaking down features into stories, assigning work, and leading sprint ceremonies and technical discussions. I frequently communicated with product & design stakeholders and represented my team to higher-level executives.
 - Accessibility lead for Venmo, supported team to reach full compliance in 2021, documented best practices, answered questions, and led workshops for other engineers.
--  Contribute to technical excellence projects and platform team including CI/CD pipeline migration from Jenkins to Github Actions and ’modularization’ of Android project structure.
+- Contributed to technical excellence projects and platform team including CI/CD pipeline migration from Jenkins to GitHub Actions and modularization of the Android project structure.
 - Selected for these roles due to a demonstrated history of delivering high-quality and secure features to production as a human-oriented leader over four years.
 
 ##### Senior Software Engineer
@@ -47,9 +58,8 @@ draft: false
 - Designed and developed REST APIs and event-driven web services using WebAPI, .NET Framework, and Azure.
 - Learned React to assist with web application development for the higi kiosk station.
 - Co-owned development of the higi Android application and supported iOS development.
-- Led integration with third party devices and SDKs, such as Fitbit and Garmin, using OAuth.
-• Advocated for the usage of Kotlin, Android Architecture Components, unit testing and other improvements to the
-Android ecosystem.
+- Led integration with third-party devices and SDKs, such as Fitbit and Garmin, using OAuth.
+- Advocated for the usage of Kotlin, Android Architecture Components, unit testing, and other improvements to the Android ecosystem.
 
 #### Epic Systems Corporation, Verona, WI
 ##### Software Developer - Team Lead, MyChart Mobile
@@ -75,5 +85,8 @@ Android ecosystem.
 
 ### Skills
 
-- Languages: C#, HTML, Java, Javascript, Kotlin, Objective-C, PHP, Python, Swift, SQL
-- Related Technologies: Android, iOS, Google Jetpack Libraries, GraphQL, SQLite, React (Native), Django Framework, .NET Core/Framework, WebAPI, AWS, Azure, Redis, OAuth
+- Languages: C#, HTML, Java, JavaScript, Kotlin, Objective-C, PHP, Python, Swift, SQL
+- Mobile: Android SDK, Jetpack Compose, iOS, SwiftUI, Google Jetpack Libraries
+- Backend & Web: GraphQL, SQLite, React (Native), Django, .NET Core/Framework, WebAPI, AWS, Azure, Redis, OAuth
+- Tooling: CI/CD (Jenkins, GitHub Actions, Harness), Figma, WCAG 2.1
+- AI Tools: Claude Code, Cursor, MCP Server Development, Agentic Workflows, AI Enablement & Documentation at PayPal
