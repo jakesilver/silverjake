@@ -1,5 +1,10 @@
-// Connects .resume-header width offset to .centered-content horizontal padding
-$content-h-padding: 2rem;
+// Design tokens
+$content-h-padding: 2rem; // Connects .resume-header width offset to .centered-content horizontal padding
+$breakpoint-mobile: 480px;
+$color-accent: #FF6E6E;
+$color-nav-bg: #1B3A5C;
+$color-text: #E2E8F0;
+$transition-speed: 0.2s ease-out;
 
 // Reset theme's 1rem body margin — lets the sticky header reach the true
 // viewport top and keeps centering math clean
@@ -41,7 +46,7 @@ body {
     p, ul, li {
         font-size: 1rem;
         line-height: 1.75;
-        color: #E2E8F0;
+        color: $color-text;
     }
 
     // Keep headings bright white for hierarchy contrast
@@ -51,16 +56,16 @@ body {
 
     // Override theme's dark #333 hover — invisible on navy background
     a {
-        color: #E2E8F0;
-        transition: color 0.2s ease-out;
+        color: $color-text;
+        transition: color $transition-speed;
 
         &:hover {
-            color: #FF6E6E;
+            color: $color-accent;
         }
 
         &:focus-visible {
-            color: #FF6E6E;
-            outline: 2px solid #FF6E6E;
+            color: $color-accent;
+            outline: 2px solid $color-accent;
             outline-offset: 2px;
             border-radius: 2px;
         }
@@ -77,7 +82,7 @@ body {
     width: calc(100% + #{$content-h-padding * 2});
     box-sizing: border-box;
     align-self: stretch;
-    background-color: #1B3A5C;
+    background-color: $color-nav-bg;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -100,7 +105,7 @@ body {
         text-transform: uppercase;
         padding: 0.25rem 0;
         border-bottom: 2px solid transparent;
-        transition: color 0.2s ease-out, border-bottom-color 0.2s ease-out;
+        transition: color $transition-speed, border-bottom-color $transition-speed;
 
         &:hover {
             color: #fff;
@@ -115,20 +120,45 @@ body {
             border-radius: 2px;
         }
     }
-}
 
-.resume-header__nav {
-    display: flex;
-    gap: 2rem;
+    @media (max-width: $breakpoint-mobile) {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0.5rem $content-h-padding;
+        min-height: auto;
+        gap: 0.25rem;
+
+        &.scrolled {
+            border-radius: 0 0 8px 8px;
+        }
+
+        a {
+            font-size: 0.75rem;
+            letter-spacing: 0.02em;
+        }
+    }
+
+    &__nav {
+        display: flex;
+        gap: 2rem;
+
+        @media (max-width: $breakpoint-mobile) {
+            gap: 1rem;
+        }
+    }
+
+    &__back {
+        white-space: nowrap;
+        flex-shrink: 0;
+    }
 }
 
 // Section cards
 .resume-section {
-    width: 100%;
     align-self: stretch;
     background: rgba(0, 0, 0, 0.18);
     border: 1px solid rgba(255, 255, 255, 0.15);
-    border-top: 3px solid #FF6E6E;
+    border-top: 3px solid $color-accent;
     border-radius: 12px;
     box-shadow: 0 4px 28px rgba(0, 0, 0, 0.25);
     padding: 1.75rem 2rem;
@@ -178,5 +208,10 @@ body {
 
     li {
         margin-bottom: 0.5rem;
+    }
+
+    @media (max-width: $breakpoint-mobile) {
+        padding: 1.25rem 1rem;
+        border-radius: 8px;
     }
 }
